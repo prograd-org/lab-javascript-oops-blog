@@ -43,4 +43,5 @@ function addPost() {
     } else {
         document.querySelector("#message").style.display = "inline-block"
     }
+
 }
