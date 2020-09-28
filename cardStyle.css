@@ -88,12 +88,13 @@ nav ul a {
 	margin: 15px 0;
 }
 
-#image{
+#image {
 	margin-top: 30px;
 }
+
 .body-div2 {
 	display: flex;
-	flex-direction: row ;
+	flex-direction: row;
 	/* justify-content: space-between; */
 	float: left;
 }
@@ -159,14 +160,15 @@ h2 {
 	font-weight: normal;
 	font-size: 24px;
 	line-height: 33px;
-	z-index: 9; display : flex;
+	z-index: 9;
+	display: flex;
 	align-items: center;
 	color: #000000;
 	display: flex;
 }
 
 input[type="text"] {
-	
+
 	padding: 0px 0px 0px 21px;
 	width: 884px;
 	height: 49px;
@@ -179,7 +181,7 @@ input[type="text"] {
 }
 
 textarea {
-	margin:14px 0px 0px 0px;
+	margin: 14px 0px 0px 0px;
 	padding: 12px 0px 0px 20px;
 	width: 884px;
 	height: 232px;
@@ -201,18 +203,26 @@ textarea {
 	color: #828282;
 }
 
-#post{
-font-family: Nunito;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 25px;
-width: 100px;
-height: 39px;
-margin: 71px 64px 103px 784px;
-align-items: center;
-text-align: center;
-background: #6C63FF;
-border-radius: 4px;
-color: #FFFFFF;
+#post {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	width: 100px;
+	height: 39px;
+	margin: 71px 64px 103px 784px;
+	align-items: center;
+	text-align: center;
+	background: #6C63FF;
+	border-radius: 4px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#message {
+	color: red;
+	padding-top: 20px;
+	font-size: 1.2em;
+	display: none;
 }
