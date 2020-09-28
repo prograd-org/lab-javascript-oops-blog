@@ -8,7 +8,7 @@ class Blog {
 
         var title_card = document.createElement('h1');
         title_card.setAttribute("id", "blog-title");
-        title_card.innerHTML += this.title;
+        title_card.innerHTML += `<img src="./assets/java card image.svg" alt="">` + this.title;
         document.getElementById('card-text').appendChild(title_card);
         console.log(title_card);
     }
