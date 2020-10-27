@@ -10,7 +10,6 @@ class Blog {
     addTitle() {
         var title_card = document.createElement('h1');
         title_card.setAttribute("id","blog-title");
-        title_card.style.color='red'
         document.getElementById('card-text').appendChild(title_card);
         title_card.innerHTML += this.title;
 
@@ -27,7 +26,6 @@ class Blog {
         let image = document.createElement("img");
         image.setAttribute("src", "./assets/java card image.svg");
         document.getElementById("card-text").appendChild(image);
-        // document.getElementById("flashcard").appendChild(image);
     }
     
 
