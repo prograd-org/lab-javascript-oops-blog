@@ -6,18 +6,18 @@ class Blog {
 
   //method to add title//
   addTitle() {
-    var title_card = document.createElement("h1");
-    title_card.setAttribute("id", "blog-title");
+    var title = document.createElement("h1");
+    title.setAttribute("id", "blog-title");
     document.getElementById("card-text").appendChild(title_card);
-    title_card.innerHTML += this.title;
+    title.innerHTML += this.title;
   }
 
   //method to add description//
   addDescription() {
-    var desc_card = document.createElement("p");
-    desc_card.setAttribute("id", "blog-desc");
+    var des = document.createElement("p");
+    des.setAttribute("id", "blog-desc");
     document.getElementById("card-text").appendChild(desc_card);
-    desc_card.innerHTML += this.detail;
+    desc.innerHTML += this.detail;
   }
   //method to add image//
   addImage() {
