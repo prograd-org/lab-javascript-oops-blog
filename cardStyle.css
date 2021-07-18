@@ -68,7 +68,7 @@ nav ul a {
 
 .article-card {
 	width: 320px;
-	margin: 30rem 0;
+	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -96,6 +96,7 @@ nav ul a {
 	flex-direction: row ;
 	/* justify-content: space-between; */
 	float: left;
+	margin :20px;
 }
 
 #popup {
@@ -109,7 +110,7 @@ nav ul a {
 	overflow: auto;
 }
 
-img#close {
+img#cancel{
 	position: absolute;
 	right: -910px;
 	margin: 13px 0px 0px 19px;
@@ -140,13 +141,13 @@ div#popupContact {
 	display: flex;
 	justify-content: flex-center;
 	align-items: center;
-	/* width: 920px; height : 572px; */
+ width: 920px; height : 572px; 
 	padding: 108px 0px 0px 18px;
 	flex-direction: column;
 	border: 2px solid gray;
 	font-family: raleway;
 	background-color: #fff;
-	/* height: 572px; */
+	height: 572px; 
 }
 
 h2 {
