@@ -51,10 +51,10 @@ nav ul a {
 	margin-right: 0.8em;
 } */
 
-/* .body-div1, .body-div2 {
-	margin-left: 150px;
-	margin-right: 150px;
-} */
+.body-div1, .body-div2 {
+	margin-left: 120px;
+	margin-right: 120px;
+}
 
 .body-div1 {
 	margin-top: 25px;
@@ -94,7 +94,7 @@ nav ul a {
 .body-div2 {
 	display: flex;
 	flex-direction: row ;
-	/* justify-content: space-between; */
+	justify-content: space-between;
 	float: left;
 }
 
@@ -104,7 +104,7 @@ nav ul a {
 	top: 0;
 	left: 0;
 	display: none;
-	position: fixed;
+	position: absolute;
 	background-color: #313131;
 	overflow: auto;
 }
