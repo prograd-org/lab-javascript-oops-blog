@@ -90,6 +90,7 @@ nav ul a {
 
 #image{
 	margin-top: 30px;
+	border: solid brown;
 }
 .body-div2 {
 	display: flex;
