@@ -47,14 +47,14 @@ nav ul a {
 	cursor: pointer;
 }
 
-/* .fa-plus-circle {
+.fa-plus-circle {
 	margin-right: 0.8em;
-} */
+} 
 
-/* .body-div1, .body-div2 {
+ .body-div1, .body-div2 {
 	margin-left: 150px;
 	margin-right: 150px;
-} */
+} 
 
 .body-div1 {
 	margin-top: 25px;
@@ -94,7 +94,7 @@ nav ul a {
 .body-div2 {
 	display: flex;
 	flex-direction: row ;
-	/* justify-content: space-between; */
+    justify-content: space-between; 
 	float: left;
 }
 
@@ -140,13 +140,13 @@ div#popupContact {
 	display: flex;
 	justify-content: flex-center;
 	align-items: center;
-	/* width: 920px; height : 572px; */
+	/*width: 920px; height : 572px; */
 	padding: 108px 0px 0px 18px;
 	flex-direction: column;
 	border: 2px solid gray;
 	font-family: raleway;
 	background-color: #fff;
-	/* height: 572px; */
+	/*height: 572px;*/
 }
 
 h2 {
