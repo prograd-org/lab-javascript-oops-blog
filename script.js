@@ -1,5 +1,5 @@
 
-/* Fill your code*/
+/* Fill your code..*/
 class Blog{
     constructor(title,detail){
         this.title=title;
