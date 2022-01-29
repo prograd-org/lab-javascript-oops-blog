@@ -68,10 +68,11 @@ nav ul a {
 
 .article-card {
 	width: 320px;
-	margin: 30rem 0;
+	margin: 1rem ;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	text-align: justify;
 }
 
 .article-card h1 {
@@ -90,12 +91,13 @@ nav ul a {
 
 #image{
 	margin-top: 30px;
+	border: solid red;
 }
 .body-div2 {
 	display: flex;
 	flex-direction: row ;
-	/* justify-content: space-between; */
 	float: left;
+	width: max-content;
 }
 
 #popup {
@@ -147,6 +149,7 @@ div#popupContact {
 	font-family: raleway;
 	background-color: #fff;
 	/* height: 572px; */
+	
 }
 
 h2 {
@@ -215,4 +218,9 @@ text-align: center;
 background: #6C63FF;
 border-radius: 4px;
 color: #FFFFFF;
+}
+
+#poster
+{
+	height: 200
 }
