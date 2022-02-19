@@ -19,19 +19,19 @@ addDescription(){
     description_card.innerHTML += this.description;
 }
 }
-var addpost=document.getElementById('popupContact');
-var blog=document.getElementById('addBlog');
-var closepost=document.getElementById('close');
-blog.addEventListener("click",function(){
-    addpost.style.display="block";
+var p=document.getElementById('post');
+var b=document.getElementById('Blog');
+var c=document.getElementById('close');
+b.addEventListener("click",function(){
+    p.style.display="block";
    
 });
-closepost.addEventListener("click",function(){
-    addpost.style.display="none";
+c.addEventListener("click",function(){
+   p.style.display="none";
    
 });
 document.getElementById("post").addEventListener("click",function(){
-    document.getElementById("popupContact").style.display="none";
+    document.getElementById("post").style.display="none";
     var $img=document.createElement("img");
     $img.setAttribute("src","./assets/javascript.png");
     document.getElementById("card-text").appendChild($img);
