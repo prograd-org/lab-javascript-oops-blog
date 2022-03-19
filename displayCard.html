@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cardStyle.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cardStyle.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <img src="/assets/logo.svg" alt="logo" />
-        <ul>
-            <li> <a href="/displayCard.html">My Blogs</a></li>
-            <li> <a href="/displayCard.html">Login</a></li>
-            <li> <a href="/displayCard.html">Sign Up</a></li> 
-        </ul>
+      <img src="./assets/logo.svg" alt="logo" />
+      <ul>
+        <li><a href="/displayCard.html">My Blogs</a></li>
+        <li><a href="/displayCard.html">Login</a></li>
+        <li><a href="/displayCard.html">Sign Up</a></li>
+      </ul>
     </nav>
     <div class="body-div1">
-        <div>Your Blog Posts</div>
-        <a ><button class="button" id="addBlog" ><i class="fas fa-plus-circle"></i>Add New Post</button></a>  
+      <div>Your Blog Posts</div>
+      <a
+        ><button class="button" id="addBlog">
+          <i class="fas fa-plus-circle"></i>Add New Post
+        </button></a
+      >
     </div>
     <div class="body-div2">
-        <div class="article-card" id="flashcard">
-            <!-- <img src="./assets/java card image.svg" alt=""> -->
-                <div class="card-text" id="card-text">
-                    <!-- <h1 id="blog-title">sda</h1> -->
-                    <!-- <p id="blog-description">da</p> -->
-                    <!-- <p>Posted on</p> -->
-                </div>
-                  <!-- <div class="card-buttons">
+      <div class="article-card" id="flashcard">
+        <!-- <img src="./assets/java card image.svg" alt=""> -->
+        <div class="card-text" id="card-text">
+          <!-- <h1 id="blog-title">sda</h1> -->
+          <!-- <p id="blog-description">da</p> -->
+          <!-- <p>Posted on</p> -->
+        </div>
+        <!-- <div class="card-buttons">
                     <a><button type="button" id="edit">EDIT</button></a> <span>|</span><a ><button id="delete">DELETE</button></a>
                 </div> -->
-        </div>
+      </div>
     </div>
     <div id="popupContact">
-        <button id="close"> <img id="close" src="./assets/close-button.svg"></button>
-        <img id="rect" src=./assets/rect.svg>
-        <h2>Your Post</h2>
-        <div id="card" >
-            <input type="hidden" name="blogId" value="" /> 
-            <input id="title" name="title" value="" placeholder="Title" type="text"/>
-            <textarea id="detail" name="message" placeholder="Description" value=""></textarea>
-            <button id="post" type="submit" >POST</button>
-        </div>
+      <button id="close">
+        <img id="close" src="./assets/close-button.svg" />
+      </button>
+      <img id="rect" src=./assets/rect.svg>
+      <h2>Your Post</h2>
+      <div id="card">
+        <input type="hidden" name="blogId" value="" />
+        <input
+          id="title"
+          name="title"
+          value=""
+          placeholder="Title"
+          type="text"
+        />
+        <textarea
+          id="detail"
+          name="message"
+          placeholder="Description"
+          value=""
+        ></textarea>
+        <button id="post" type="submit">POST</button>
+      </div>
     </div>
-</body>
-<script src="/script.js"></script>
+  </body>
+  <script src="./script.js"></script>
 </html>
