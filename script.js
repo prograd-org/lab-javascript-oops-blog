@@ -1,5 +1,4 @@
-/* Fill your code*/
-//Anirudh Lodh
+
 class Blog{
     constructor(title,detail){
         this.title=title;
