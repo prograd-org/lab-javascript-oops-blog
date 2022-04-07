@@ -38,4 +38,4 @@ document.getElementById("post").addEventListener("click",function(){
     var $title=document.getElementById("title").value;
     var $detail=document.getElementById("detail").value;
     var object1=new Blog($title,$detail);
-});
+}); 
